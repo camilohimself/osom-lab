@@ -6,8 +6,13 @@ Laboratoire d'expérimentations et projets de développement.
 
 ```
 osom-lab/
-├── experiments/          # Projets expérimentaux
-│   └── timer-industriel/ # Application de timer industriel Next.js
+├── experiments/              # Projets expérimentaux
+│   ├── timer-industriel/     # Application de timer industriel Next.js
+│   └── prompt-optimization/  # Système d'optimisation des prompts
+├── client-demos/            # Démonstrations client
+│   └── dashboard-client-demo/ # Dashboard Culture Peinture (ROI 140x)
+├── tools/                   # Outils de développement
+│   └── dashboard-template/   # Template générique dashboard
 └── README.md
 ```
 
@@ -27,4 +32,21 @@ npm install
 npm run dev
 ```
 
-Voir le README du projet pour plus de détails.
+### Dashboard Client Demo
+Dashboard interactif pour démonstration client Culture Peinture.
+
+**Technologies :** HTML5, Chart.js, CSS Grid
+
+**Location :** `client-demos/dashboard-client-demo/`
+
+**Utilisation :** Ouvrir `index.html` dans le navigateur
+
+### Prompt Optimization
+Système expérimental d'amélioration des prompts IA (non activé).
+
+**Location :** `experiments/prompt-optimization/`
+
+### Dashboard Template
+Template générique pour création de dashboards client.
+
+**Location :** `tools/dashboard-template/`
